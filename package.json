@@ -9,6 +9,7 @@
     "pify": "^2.2.0",
     "request": "^2.61.0",
     "request-progress": "^0.3.1",
+    "unsplash-js": "^4.8.0",
     "wallpaper": "^2.0.0"
   },
   "repository": {
