@@ -34,7 +34,10 @@
     "prettier:all": "prettier --single-quote --write \"{{lib,test}/*.js,*.js}\""
   },
   "lint-staged": {
-    "*.js": ["prettier --write --single-quote", "git add"]
+    "*.js": [
+      "prettier --write --single-quote",
+      "git add"
+    ]
   },
   "devDependencies": {
     "ava": "^0.2.0",
